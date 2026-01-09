@@ -5,32 +5,40 @@ body {
     justify-content: center;
 }
 
-#calculatebtn {
+#calculatetip, #calculatebill {
     padding: 5px 15px;
     font-size: 13px;
     cursor: pointer;
-    display: block;
-    margin: 20px auto 0;
+    display: inline-block;
+    position: relative;
+    margin: 20px 5px 0;
     transition: background-color 0.3s, color 0.3s, font-size 0.3s, transform 0.3s;
     border-radius: 5rem;
     border: 2px solid #000000;
-}
-
-#calculatebtn:hover {
-    background-color: #4ca7af;
-    color: white;
-    transform: scale(1.05);
 }
 
 #tippercentage, #billamount {
     padding: 3px 13px;
     font-size: 13px;
     cursor: pointer;
-    display: inline-block;
+    display:inline-block;
     gap: 10px;
-    margin: 0px 5px;
+    margin: 0px auto 20px;
     border-radius: 5rem;
     border: 2px solid #000000;
+    transition: background-color 0.3s, color 0.3s, font-size 0.3s, transform 0.3s;
+}
+
+#calculatetip:hover {
+    background-color: #28a745;
+    color: white;
+    transform: scale(1.05);
+}
+
+#calculatebill:hover {
+    background-color: #4ca7af;
+    color: white;
+    transform: scale(1.05);
 }
 
 #tippercentage:focus, #billamount:focus {
