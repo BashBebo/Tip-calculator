@@ -6,4 +6,4 @@ const TotalAmount = document.getElementById("totalamount");
 CalculateBtn.addEventListener("click", function() {
     const bill = parseFloat(BillAmount.value)
     console.log(bill);
-})
+});
