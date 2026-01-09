@@ -5,5 +5,6 @@ const TotalAmount = document.getElementById("totalamount");
 
 CalculateBtn.addEventListener("click", function() {
     const bill = parseFloat(BillAmount.value)
+    const tip = parseFloat(TipPercentage.value)
     console.log(bill);
 });
