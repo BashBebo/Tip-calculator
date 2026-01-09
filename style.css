@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+#calculatebtn {
+    padding: 5px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+    transition: background-color 0.3s, color 0.3s, font-size 0.3s, transform 0.3s;
+    border-radius: 5rem;
+    border: 2px solid #000000;
+}
+
+#calculatebtn:hover {
+    background-color: #4ca7af;
+    color: white;
+    transform: scale(1.05);
+}
+
+#tippercentage, #billamount {
+    padding: 3px 13px;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-block;
+    gap: 10px;
+    margin: 0px 5px;
+    border-radius: 5rem;
+    border: 2px solid #000000;
+}
+
+#tippercentage:focus, #billamount:focus {
+    outline: none;
+    border: 2px solid #4ca7af;
+    box-shadow: 0 0 5px #4ca7af;
+}
